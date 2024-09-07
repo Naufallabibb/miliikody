@@ -1,0 +1,92 @@
+.experience__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Ubah menjadi 3 kolom */
+    gap: 2rem;
+  }
+  
+  .experience__container > div {
+    background: var(--color-bg-variant);
+    padding: 2.4rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    text-align: center;
+  }
+  
+  .experience__container > div:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+  }
+  
+  .experience__container > div h3 {
+    margin: 1rem 0;
+    color: var(--color-primary);
+  }
+  
+  .experience__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    row-gap: 2rem;
+  }
+  
+  .experience__image {
+    width: 100%;
+    height: auto; /* Sesuaikan tinggi secara otomatis */
+    aspect-ratio: 16 / 9; /* Menjaga rasio aspek 1920x1080 */
+    object-fit: cover;
+    border-radius: 1rem;
+}
+  
+  .experience__details {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .experience__details-icon {
+    margin-top: 6px;
+    color: var(--color-primary);
+  }
+  
+  .experience__details small {
+    font-size: 0.875rem;
+    color: var(--color-primary);
+  }
+  
+  /* Media queries for medium devices (Tablets) */
+  @media screen and (max-width: 1024px) {
+    .experience__container {
+      grid-template-columns: 1fr 1fr; /* Tetap 2 kolom pada layar tablet */
+    }
+  
+    .experience__container > div {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+      }
+  
+      .experience__content {
+        padding: 1rem;
+      }
+    }
+  
+  /* Media queries for small devices (Mobiles) */
+  @media screen and (max-width: 600px) {
+    .experience__container {
+      grid-template-columns: 1fr; /* Kembali menjadi 1 kolom pada layar kecil */
+      gap: 1rem;
+    }
+  
+    .experience__container > div {
+      width: 100%;
+      padding: 2rem 1rem;
+    }
+  
+    .experience__image {
+      height: 150px;
+    }
+  }
+  
