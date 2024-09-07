@@ -24,7 +24,7 @@ return (
             <h3>Cincin Manik</h3>
             <small className='text-light'>Artistic | Unique | Handmade</small>
             <div className="portfolio__item-cta">
-            <a href="https://wa.me/6285800347898" target="_blank" rel='noreferrer' className='btn'>Whatsapp</a>
+            <a href="http://shopee.co.id/milikody" target="_blank" rel='noreferrer' className='btn'>Shopee</a>
             </div>
         
         </article>
@@ -35,7 +35,7 @@ return (
             <h3>Bros</h3>
             <small className='text-light'>Classic | Bold | Timeless</small>
             <div className="portfolio__item-cta">
-            <a href="https://wa.me/6285800347898" target="_blank" rel='noreferrer' className='btn'>Whatsapp</a>
+            <a href="http://shopee.co.id/milikody" target="_blank" rel='noreferrer' className='btn'>Shopee</a>
             </div>
             
         </article>
@@ -46,7 +46,7 @@ return (
             <h3>Strapphone</h3>
             <small className='text-light'>Practical | Decorative | Durable</small>
             <div className="portfolio__item-cta">
-            <a href="https://wa.me/6285800347898" target="_blank" rel='noreferrer' className='btn'>Whatsapp</a>
+            <a href="http://shopee.co.id/milikody" target="_blank" rel='noreferrer' className='btn'>Shopee</a>
             </div>
             
         </article>
@@ -57,7 +57,7 @@ return (
             <h3>Charm Bag</h3>
             <small className='text-light'>Cute | Versatile | Personalized</small>
             <div className="portfolio__item-cta">
-            <a href="https://wa.me/6285800347898" target="_blank" rel='noreferrer' className='btn'>Whatsapp</a>
+            <a href="http://shopee.co.id/milikody" target="_blank" rel='noreferrer' className='btn'>Shopee</a>
             </div>
             
         </article>
@@ -68,7 +68,7 @@ return (
             <h3>Gelang Manik</h3>
             <small className='text-light'>Stylish | Trendy | Customizable</small>
             <div className="portfolio__item-cta">
-            <a href="https://wa.me/6285800347898" target="_blank" rel='noreferrer' className='btn'>Whatsapp</a>
+            <a href="http://shopee.co.id/milikody" target="_blank" rel='noreferrer' className='btn'>Shopee</a>
             </div>
             
         </article>
@@ -79,7 +79,7 @@ return (
             <h3>Kalung Manik</h3>
             <small className='text-light'>Elegant | Chic | Statement</small>
             <div className="portfolio__item-cta">
-            <a href="https://wa.me/6285800347898" target="_blank" rel='noreferrer' className='btn'>Whatsapp</a>
+            <a href="http://shopee.co.id/milikody" target="_blank" rel='noreferrer' className='btn'>Shopee</a>
             </div>
             
         </article>
