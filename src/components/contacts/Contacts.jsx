@@ -1,7 +1,7 @@
 import React from 'react'
 import './contacts.css'
 import { MdOutlineEmail } from 'react-icons/md'
-import { FaWhatsapp } from 'react-icons/fa'  // Import the WhatsApp icon
+import { FaShoppingBag } from 'react-icons/fa'
 
 const Contacts = () => {
   return (
@@ -13,17 +13,17 @@ const Contacts = () => {
         <div className="contact__options">
 
           <article className='contact__option'>
-            <FaWhatsapp className='contact__option-icon'/>
-            <h4>Whatsapp</h4>
-            <h5>0858-0034-7898</h5>
-            <a href="https://wa.me/6285800347898">Send a message</a>
+            <FaShoppingBag className='contact__option-icon'/>
+            <h4>Shopee</h4>
+            <h5>Miliikody</h5>
+            <a href="http://shopee.co.id/milikody">Chat on shopee</a>
           </article>
 
           <article className='contact__option'>
             <MdOutlineEmail className='contact__option-icon'/>
             <h4>Email</h4>
-            <h5>salsabilanadiaak413@gmail.com</h5>
-            <a href="mailto:salsabilanadiaak413@gmail.com">Send a message</a>
+            <h5>miliikody@gmail.com</h5>
+            <a href="mailto:miliikody@gmail.com">Send a email</a>
           </article>
 
         </div>
